@@ -1,0 +1,1 @@
+import{r as u}from"./app-zibdNuU4.js";function a(t,e){if(t==null)return{};var o={},r=Object.keys(t),n,i;for(i=0;i<r.length;i++)n=r[i],!(e.indexOf(n)>=0)&&(o[n]=t[n]);return o}const s=t=>!t||typeof t=="function"?t:e=>{t.current=e};function c(t,e){const o=s(t),r=s(e);return n=>{o&&o(n),r&&r(n)}}function p(t,e){return u.useMemo(()=>c(t,e),[t,e])}export{a as _,p as u};
